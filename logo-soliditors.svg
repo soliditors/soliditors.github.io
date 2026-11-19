@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <title>Soliditors</title>
+  <defs>
+    <clipPath id="silhouette">
+      <path d="M65 156 142 112v88l77 44-77 44-77-44Z"/>
+    </clipPath>
+    <path id="upper-facet" d="M-12 112 142 200V24H-12Z"/>
+    <path id="lower-facet" d="M-12 288 142 200v200H-12Z"/>
+    <path id="inner-facet" d="M142 200 296 288v112H142Z"/>
+  </defs>
+  <g clip-path="url(#silhouette)">
+    <path fill="#3a377c" d="M0 0h400v400H0Z"/>
+    <use href="#upper-facet" fill="#666584"/>
+    <use href="#lower-facet" fill="#212179"/>
+    <use href="#inner-facet" fill="#33337b"/>
+  </g>
+  <g transform="rotate(180 200 200)" clip-path="url(#silhouette)">
+    <path fill="#c1383a" d="M0 0h400v400H0Z"/>
+    <use href="#upper-facet" fill="#c66667"/>
+    <use href="#lower-facet" fill="#c01c1b"/>
+    <use href="#inner-facet" fill="#c33333"/>
+  </g>
+</svg>
